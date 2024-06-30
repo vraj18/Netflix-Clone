@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(heropage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 723px;
+}
+
+.logo{
+    background-image: url(netflixLogo.png);
+    height: 51.3px;
+    width: 165.06px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 165px;
+
+}
+
+
+.search{
+    background: none;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    border-radius: 5px;
+    position: relative;
+    left: 900px;
+    top: 20px;
+}
+
+.sign-button{
+    background-color: rgb(234, 18, 18);
+    color: white;
+    border: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 1;
+    position: relative;
+    top: 20px;
+    left: 920px;
+}
+
+.sign-button:hover{
+    background-color: rgb(190, 15, 15);
+    transition:ease-out 0.3s;
+}
+
+
+.content1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 290px;
+    font-weight: 900;
+    right: 120px;
+}
+
+.content2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+    left: 520px;
+}
+.content3{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    top: 45px;
+    font-weight: 400;
+}
+
+.search-input{
+    height: 56px;
+    width: 362px;
+    color: white;
+    background: none;
+    border: 1px solid #c8c8c8;
+    position: relative;
+    top: 80px;
+    right: 640px;
+    font-size: 1rem;
+    padding-left: 15px;
+    border-radius: 5px;
+
+}
+
+.start-button{
+    position: absolute;
+    height: 60px;
+    width: 210px;
+    background-color: rgb(234, 18, 18);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    left: 800px;
+    top: 439px;
+}
+
+.start-button:hover{
+    background-color: rgb(190, 15, 15);
+    transition:ease-out 0.3s;
+}
+
+/* panel 2 */
+.panel2{
+    height: 550px;
+    border-top: 7px solid rgb(47, 46, 46);
+}
+
+.p2content1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+.p2content2{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 220px;
+    left: 250px;
+}
+
+.p2content3{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 220px;
+    left: 250px;
+}
+
+.tv-image{
+    position: relative;
+    left: 740px;
+    top: -50px;
+
+}
+
+/* panel 3 */
+
+.panel3{
+    height: 550px;
+    border-top: 7px solid rgb(47, 46, 46);
+}
+
+
+.p3content1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 170px;
+    left: 700px;
+
+}
+
+.p3content2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 170px;
+    left: 700px;
+
+}
+
+.p3content3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 190px;
+    left: 700px;
+
+}
+
+.p3content4{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 190px;
+    left: 700px;
+
+}
+
+.mobile-image{
+    position: relative;
+    top: -100px;
+    left: 150px;
+}
+
+/* panel 4 */
+
+.panel4{
+    height: 550px;
+    border-top: 7px solid rgb(47, 46, 46);
+}
+
+.p4content1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    top: 200px;
+    left: 170px;
+
+}
+
+
+.p4content2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    top: 220px;
+    left: 170px;
+
+}
+
+.p4content3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: relative;
+    top: 220px;
+    left: 170px;
+
+}
+
+.mac-image{
+    position: relative;
+    left: 700px;
+}
+
+
+
+/* panel 5 */
+
+.panel5{
+    height: 550px;
+    border-top: 7px solid rgb(47, 46, 46);
+}
+
+.kids-image{
+    position: relative;
+    left: 170px;
+}
+
+.p5content1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    top: 200px;
+    left: 750px;
+}
+
+.p5content2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 220px;
+    left: 751px;
+}
+
+.p5content3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 220px;
+    left: 751px;
+}
+
+.p5content4{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 220px;
+    left: 751px;
+}
+
+
+/* panel 6 */
+
+.panel6{
+    height: 920px;
+    border-top: 7px solid rgb(47, 46, 46);
+}
+
+.faq{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+.ask-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(45, 45, 45);
+    height: 55px;
+    width: 1100px;
+    padding-top: 25px;
+    font-size: 1.6rem;
+    top: 100px;
+    padding-left: 50px;
+    margin-bottom:10px ;
+
+}
+
+.sign{
+    color:white;
+    font-size: 3rem;
+    position: absolute;
+    left: 1230px;
+    top: 10px;
+    font-weight: 100;
+}
+
+.btn1:hover{
+    background-color: rgb(60, 59, 59);
+    transition: ease-in-out 0.2s;
+}
+
+.ask-ques{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.search-input2{
+    height: 55px;
+    width: 350px;
+    color: white;
+    background: none;
+    border: 1px solid #c8c8c8;
+    position: relative;
+    top: 170px;
+    left:430px;
+    font-size: 1rem;
+    padding-left: 15px;
+    border-radius: 5px;
+
+}
+
+
+.start-button2{
+    position: relative;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(234, 18, 18);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    left: 435px;
+    top: 171px;;
+}
+
+
+
+/* panel 6 */
+.panel7{
+    height: 400px;
+    border-top: 7px solid rgb(47, 46, 46);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    color: #DDDDDD;
+    margin-top: 20px;
+}
+
+ul{
+    margin-top: 70px;
+}
+
+.search-end{
+    background: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+p{
+    position: relative;
+    top: 40px;
+    font-size: 0.85rem;
+}
